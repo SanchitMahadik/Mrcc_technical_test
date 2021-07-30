@@ -19,4 +19,7 @@ fetch("data/data.json")
       cardWrapper.innerHTML += card;
       tbody.innerHTML += tableData;
     });
+  })
+  .catch((error) => {
+    swal("Oh no!", "Somthing Wrong Here!", "error");
   });
