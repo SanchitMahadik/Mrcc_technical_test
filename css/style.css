@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 2.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Card Section Style Start  */
+
+#card__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.card {
+  background-color: #eeeeee;
+  padding: 1.5rem;
+  display: grid;
+  place-items: center;
+}
+
+button {
+  background-color: #1dc7ea;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  margin-top: 1.2rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Card Section Style End  */
+
+/* Table Section Style End  */
+
+h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+th,
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Table Section Style End  */
+
+/* Media Queries */
+
+/* 1200 Screen */
+@media (max-width: 1200px) {
+  #card__wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* 992 Screen */
+@media (max-width: 992px) {
+  #card__wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* 768 Screen */
+@media (max-width: 768px) {
+  #card__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* 576 Screen */
+@media (max-width: 576px) {
+  #card__wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  html {
+    font-size: 0.9rem;
+  }
+}

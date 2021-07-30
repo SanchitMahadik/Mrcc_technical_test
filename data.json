@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "cname": "Surgical Air",
+    "btnname": "22.45 Kpa",
+    "days": "Today",
+    "usage": "1 Hour",
+    "totalCost": ""
+  },
+  {
+    "id": 2,
+    "cname": "Carbon Di-oxide",
+    "btnname": "14.12 Kpa",
+    "days": "Week",
+    "usage": "1 Week",
+    "totalCost": "1750"
+  },
+  {
+    "id": 3,
+    "cname": "Vacuum",
+    "btnname": "11.41 Kpa",
+    "days": "Yesterday",
+    "usage": "1 Week",
+    "totalCost": "1550"
+  },
+  {
+    "id": 4,
+    "cname": "Hydrogen",
+    "btnname": "2.02 Kpa",
+    "days": "Week",
+    "usage": "1 Day",
+    "totalCost": "1750"
+  },
+  {
+    "id": 5,
+    "cname": "Methane",
+    "btnname": "16.04 Kpa",
+    "days": "Yesterday",
+    "usage": "11 Days",
+    "totalCost": "750"
+  },
+  {
+    "id": 6,
+    "cname": "Nitrogen",
+    "btnname": "28.01 Kpa",
+    "days": "Week",
+    "usage": "15 Days",
+    "totalCost": "2500"
+  },
+  {
+    "id": 7,
+    "cname": "Oxygen",
+    "btnname": "32.00 Kpa",
+    "days": "Week",
+    "usage": "1 Day",
+    "totalCost": "750"
+  },
+  {
+    "id": 8,
+    "cname": "Sulfur Dioxide",
+    "btnname": "64.06 Kpa",
+    "days": "Yesterday",
+    "usage": "1 Week",
+    "totalCost": "10000"
+  },
+  {
+    "id": 9,
+    "cname": "Bio Gas",
+    "btnname": "25.83 Kpa",
+    "days": "Week",
+    "usage": "5 Days",
+    "totalCost": "1750"
+  },
+  {
+    "id": 10,
+    "cname": "Chlorine",
+    "btnname": "70.91 Kpa",
+    "days": "Today",
+    "usage": "1/2 Hour",
+    "totalCost": ""
+  },
+  {
+    "id": 11,
+    "cname": "Ethane",
+    "btnname": "30.07 Kpa",
+    "days": "Yesterday",
+    "usage": "10 Days",
+    "totalCost": "1050"
+  },
+  {
+    "id": 12,
+    "cname": "Helium",
+    "btnname": "4.00 Kpa",
+    "days": "Week",
+    "usage": "1 Day",
+    "totalCost": "1550"
+  }
+]
