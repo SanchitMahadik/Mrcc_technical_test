@@ -1,7 +1,7 @@
 const cardWrapper = document.getElementById("card__wrapper");
 let tbody = document.querySelector("tbody");
 
-fetch("./data.json")
+fetch("data/data.json")
   .then((data) => {
     return data.json();
   })
